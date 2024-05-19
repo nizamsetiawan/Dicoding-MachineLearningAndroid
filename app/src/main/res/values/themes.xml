@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Asclepius" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <!-- Secondary color -->
+        <item name="colorSecondary"> @color/colorPrimary</item>
+        <item name="colorSecondaryVariant"> @color/colorPrimary_400</item>
+
+        <!--status bar color -->
+        <item name="android:statusBarColor" >?attr/colorSecondary</item>
+
+    </style>
+
+    <style name="Theme.Asclepius" parent="Base.Theme.Asclepius" />
+
+    <style name="Button.OutlineBox" parent="Widget.MaterialComponents.Button.OutlinedButton">
+
+    </style>
+</resources>
